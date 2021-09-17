@@ -1,0 +1,49 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/scss/bootstrap";
+@import "colors";
+
+::selection {
+  background: rgba($color: #61dafb, $alpha: 0.8); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba($color: #61dafb, $alpha: 0.8); /* Gecko Browsers */
+}
+
+///////////////////// Dont delete the above /////////////////////
+.App {
+  text-align: center;
+}
+
+* {
+  // color: #9b1d20; Ruby red
+  // color: #747274; Sonic Silver
+  color: #7c7a7a;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

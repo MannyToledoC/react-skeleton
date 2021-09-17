@@ -1,0 +1,38 @@
+.project-header {
+  padding: 30px;
+}
+
+.project-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: none;
+  margin: none;
+  color: #61dafb;
+}
+
+.nav-link {
+  color: #61dafb;
+  margin: 0 10px 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in 0s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #61dafb;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in 0s;
+}
+
+.nav-link:focus {
+  color: #61dafb;
+}
+
+.selected {
+  color: #61dafb;
+  transform: scale(1.1);
+  border-bottom: 1px #61dafb solid;
+}
